@@ -14,9 +14,9 @@ spec:
     spec:
       containers:
       - name: ms-programas
-        image: jhonenriquez98/ms-programas:latest
+        image: irenly/ms-programas:latest
         ports:
         - containerPort: 8001
         env:
         - name: DATABASE_URL
-          value: "postgresql://postgres:root@postgres-service:5432/asignacion_espacios"
+          value: "postgresql://postgres:root@postgres:5432/asignacion_espacios"

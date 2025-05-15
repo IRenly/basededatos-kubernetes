@@ -14,6 +14,3 @@ class AsignaturaDB(Base):
     nombre = Column(String, index=True, nullable=False)
     codigo_asignatura = Column(String(7), nullable=False, unique=True)
 
-
-    
-
